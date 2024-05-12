@@ -19,7 +19,7 @@ email: janrak@gmail.com
 description: "Attajak's blog"
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-repository: "attajak/blog"
+repository: "attajak/jekyll-jekyll-theme-basically-basic"
 author:
   name: Attajak Janrak
   twitter: attajak
@@ -30,9 +30,9 @@ logo: "assets/images/1707133203259.jpg" # path of site logo, e.g. "/assets/image
 google_analytics:
 disqus:
   shortname:
-search: # true, false (default)
+search: true # true, false (default)
 search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
+search_provider: lunr # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -41,6 +41,7 @@ algolia:
 
 # Build settings
 theme: jekyll-theme-basically-basic
+# remote_theme: "mmistakes/jekyll-theme-basically-basic@master"
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
