@@ -1,0 +1,14 @@
+run = "bundle exec jekyll serve --host=0.0.0.0"
+hidden = [".bundle"]
+entrypoint = "README.md"
+modules = ["ruby-3.2:v6-20240209-9e3a339"]
+
+[nix]
+channel = "stable-23_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[[ports]]
+localPort = 4000
+externalPort = 80
