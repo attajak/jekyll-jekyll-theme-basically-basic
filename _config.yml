@@ -16,9 +16,9 @@
 lang: en-US
 title: Attajak's blog
 email: janrak@gmail.com
-description: "Attajak's blog"
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description: "Attajak's blog (Jekyll"
+baseurl: /jekyll-jekyll-theme-basically-basic # the optional subpath of your site, e.g. "/blog"
+url: https://attajak.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 repository: "attajak/jekyll-jekyll-theme-basically-basic"
 author:
   name: Attajak Janrak
