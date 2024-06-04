@@ -14,7 +14,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 #   gem "jekyll-remote-theme"
 # end
 
-gem "jekyll-theme-basically-basic"
+# gem "jekyll-theme-basically-basic"
 
 gem "webrick"
 

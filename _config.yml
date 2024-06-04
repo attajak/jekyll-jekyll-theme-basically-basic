@@ -40,8 +40,8 @@ algolia:
   powered_by: # true (default), false
 
 # Build settings
-theme: jekyll-theme-basically-basic
-# remote_theme: "mmistakes/jekyll-theme-basically-basic@master"
+# theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic@master"
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
