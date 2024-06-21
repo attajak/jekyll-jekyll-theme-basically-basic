@@ -1,4 +1,4 @@
-run = "bundle exec jekyll serve --host=0.0.0.0"
+run = "bundle exec jekyll serve --baseurl=/ --host=0.0.0.0"
 hidden = [".bundle"]
 entrypoint = "README.md"
 modules = ["ruby-3.2:v6-20240209-9e3a339"]
