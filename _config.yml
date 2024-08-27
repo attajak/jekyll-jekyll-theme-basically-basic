@@ -31,7 +31,7 @@ google_analytics:
 disqus:
   shortname:
 search: true # true, false (default)
-search_full_content: false # true, false (default)
+search_full_content: true # true, false (default)
 search_provider: lunr # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -41,7 +41,7 @@ algolia:
 
 # Build settings
 # theme: jekyll-theme-basically-basic
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
